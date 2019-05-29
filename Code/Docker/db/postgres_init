@@ -1,0 +1,9 @@
+CREATE TABLE user
+(
+  user_id SERIAL PRIMARY KEY,
+  name varchar,
+  email varchar,
+  password varchar
+);
+
+INSERT INTO user (name, email, password) VALUES ('Test', 'test@test.de', 'test');
